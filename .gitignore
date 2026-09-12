@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.html
+*_files/
+
+# Archivos de contexto y desarrollo local
+CONTEXTO_PROYECTO_DASHBOARD.md
+MAYO17-MEJORAS-MS/
+
+# Notebooks de desarrollo en Colab
+Dashboard_Barco_Hospital*.ipynb
+app_impacto_M_*.py
+
+
+echo "app_impacto_BACKUP_20mayo.py" >> .gitignore
+echo "diferencias.txt" >> .gitignore
+echo "app_impacto_M_20.py" >> .gitignore
+
+app_impacto_BACKUP_20mayo.py
+diferencias.txt
+.streamlit/secrets.toml
+Dashboard_Barco_Hospital.ipynb
+

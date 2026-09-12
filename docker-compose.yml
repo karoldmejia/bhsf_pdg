@@ -1,0 +1,19 @@
+services:
+  app:
+    build: .
+    image: barco-dashboard:latest
+    container_name: barco-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data:ro
+      - ./img:/app/img:ro
+      - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml:ro
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
