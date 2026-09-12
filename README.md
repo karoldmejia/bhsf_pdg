@@ -23,7 +23,7 @@ Este proyecto es el producto final de la **Fase 2** del Trabajo de Grado de la M
 
 ## Demo en vivo
 
- **[dashboard-barco-hospital-san-raffaele.streamlit.app](https://dashboard-barco-hospital-san-raffaele.streamlit.app)**
+ **[dashboard-barco-hospital-san-raffaele.streamlit.app](https://dashboard-bhsf.streamlit.app/)**
 
 >  Los datos están anonimizados. No contienen nombres, cédulas ni información que permita identificar a los pacientes. Uso exclusivo institucional y académico.
 
